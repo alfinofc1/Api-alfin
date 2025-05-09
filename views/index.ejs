@@ -646,7 +646,7 @@
  return;
  }
 
- const baseUrl = `https://nirkyy.koyeb.app${apiUrl}`;
+ const baseUrl = `https://alfin-api.koyeb.app/${apiUrl}`;
  const urlObj = new URL(baseUrl);
  Object.entries(queryParams).forEach(([key, value]) => {
  urlObj.searchParams.append(key, value);
