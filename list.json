@@ -16,6 +16,44 @@
   ],
   "fitur": [
     {
+  "nama": "Website Screenshot",
+  "tags": ["Image", "Utility"],
+  "endpoint": "/api/v1/ssweb",
+  "deskripsi": "Mengambil screenshot dari sebuah website berdasarkan URL.",
+  "parameter": [
+    {
+      "params": "url",
+      "example": "https://nirkyy.koyeb.app",
+      "opsional": false
+    },
+    {
+      "params": "browserWidth",
+      "example": "1280",
+      "opsional": true
+    },
+    {
+      "params": "browserHeight",
+      "example": "720",
+      "opsional": true
+    },
+    {
+      "params": "fullPage",
+      "example": "false",
+      "opsional": true
+    },
+    {
+      "params": "deviceScaleFactor",
+      "example": "1",
+      "opsional": true
+    },
+    {
+      "params": "format",
+      "example": "png",
+      "opsional": true
+    }
+  ]
+},
+    {
   "nama": "Writecream Text to Image",
   "tags": ["AI", "Image", "Generator"],
   "endpoint": "/api/v1/writecream-text2image",
@@ -23,7 +61,7 @@
   "parameter": [
     {
       "params": "prompt",
-      "example": "Anime girl holding a sign with a smiling expression, the sign reads Alfin",
+      "example": "Anime girl holding a sign with a smiling expression, the sign reads NirKyy",
       "opsional": false
     },
     {
