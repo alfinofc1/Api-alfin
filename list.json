@@ -23,7 +23,7 @@
   "parameter": [
     {
       "params": "url",
-      "example": "https://nirkyy.koyeb.app",
+      "example": "https://alfin-api.koyeb.app",
       "opsional": false
     },
     {
@@ -61,7 +61,7 @@
   "parameter": [
     {
       "params": "prompt",
-      "example": "Anime girl holding a sign with a smiling expression, the sign reads NirKyy",
+      "example": "Anime girl holding a sign with a smiling expression, the sign reads alfin",
       "opsional": false
     },
     {
@@ -115,12 +115,12 @@
   "parameter": [
     {
       "params": "search",
-      "example": "Nirkyy berapa sih",
+      "example": "alfin-api berapa sih",
       "opsional": false
     },
     {
       "params": "judul",
-      "example": "Nirkyy Web",
+      "example": "alfin-api Web",
       "opsional": false
     },
     {
@@ -130,7 +130,7 @@
     },
     {
       "params": "thumbnail",
-      "example": "https://nirkyy.koyeb.app/example.jpg",
+      "example": "https://alfin-api.koyeb.app/example.jpg",
       "opsional": false
     }
   ]
@@ -330,7 +330,7 @@
       "parameter": [
         {
           "params": "url",
-          "example": "https://nirkyy.koyeb.app/example.jpg",
+          "example": "https://alfin-api.koyeb.app/example.jpg",
           "opsional": false
         }
       ]
@@ -356,7 +356,7 @@
       "parameter": [
         {
           "params": "text",
-          "example": "Follow channel Nirkyy lah njir",
+          "example": "Follow channel alfin-api lah njir",
           "opsional": false
         },
         {
@@ -425,7 +425,7 @@
         },
         {
           "params": "link",
-          "example": "https://ngl.link/nirkyy1",
+          "example": "https://ngl.link/alfin-api1",
           "opsional": false
         }
       ]
@@ -477,7 +477,7 @@
       "parameter": [
         {
           "params": "url",
-          "example": "https://nirkyy.koyeb.app/example.jpg",
+          "example": "https://alfin-api.koyeb.app/example.jpg",
           "opsional": false
         }
       ]
@@ -612,7 +612,7 @@
       "parameter": [
         {
           "params": "url",
-          "example": "https://nirkyy.koyeb.app/example.jpg",
+          "example": "https://alfin-api.koyeb.app/example.jpg",
           "opsional": false
         }
       ]
@@ -651,7 +651,7 @@
       "parameter": [
         {
           "params": "url",
-          "example": "https://nirkyy.koyeb.app/example.jpg",
+          "example": "https://alfin-api.koyeb.app/example.jpg",
           "opsional": false
         }
       ]
@@ -883,7 +883,7 @@
         },
         {
           "params": "background",
-          "example": "https://nirkyy.koyeb.app/example.jpg",
+          "example": "https://alfin-api.koyeb.app/example.jpg",
           "opsional": false
         }
       ]
