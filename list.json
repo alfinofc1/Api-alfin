@@ -16,6 +16,37 @@
   ],
   "fitur": [
   {
+  "nama": "Image to Prompt",
+  "tags": ["AI", "Image", "Utility"],
+  "endpoint": "/api/v1/image2prompt",
+  "deskripsi": "Menghasilkan prompt teks dari sebuah gambar menggunakan AI.",
+  "parameter": [
+    {
+      "params": "url",
+      "example": "url nya mana",
+      "opsional": false
+    }
+  ]
+},
+    {
+  "nama": "Edit Image AI",
+  "tags": ["AI", "Image", "Utility"],
+  "endpoint": "/api/v1/editimage",
+  "deskripsi": "Melakukan pengeditan gambar menggunakan AI berdasarkan prompt. Proses kadang cepet di bawah 30 detik tapi kadang lama 1 menit lebih kek nya Mandang fisik.",
+  "parameter": [
+    {
+      "params": "prompt",
+      "example": "Change the text on the board so that it is deleted or blank",
+      "opsional": false
+    },
+    {
+      "params": "url",
+      "example": "urlnya mana",
+      "opsional": false
+    }
+  ]
+},
+  {
   "nama": "Facebook Downloader",
   "tags": ["Downloader", "Video", "Social"],
   "endpoint": "/api/v1/facebook-dl",
