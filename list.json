@@ -16,6 +16,37 @@
   ],
   "fitur": [
   {
+  "nama": "Auto Translate",
+  "tags": ["Utility", "AI"],
+  "endpoint": "/api/v1/autotranslate",
+  "deskripsi": "Menerjemahkan teks ke bahasa target menggunakan layanan terjemahan eksternal.",
+  "parameter": [
+    {
+      "params": "text",
+      "example": "Halo dunia",
+      "opsional": false
+    },
+    {
+      "params": "lang",
+      "example": "en",
+      "opsional": false
+    }
+  ]
+},
+    {
+  "nama": "AI Logo Generator",
+  "tags": ["AI", "Image", "Generator"],
+  "endpoint": "/api/v1/logo-gen",
+  "deskripsi": "Menghasilkan desain logo menggunakan AI berdasarkan prompt.",
+  "parameter": [
+    {
+      "params": "prompt",
+      "example": "logo alfin untuk kedai kopi modern",
+      "opsional": false
+    }
+  ]
+},
+  {
   "nama": "OCR Image",
   "tags": ["Image", "Utility"],
   "endpoint": "/api/v1/ocr-img",
